@@ -1,1 +1,3 @@
-# TODO: Fix Netlify Python init failure&#10;&#10;## Steps:&#10;1. [x] Python 3.12.7 → 3.12.6 → 3.12.0 → 3.11.9&#10;2. [x] Create netlify.toml&#10;3. [x] Fix netlify.toml TOML parse (indent [build.environment])&#10;4. [ ] Git commit/push all changes&#10;5. [ ] Monitor Netlify build&#10;
+5. [ ] Monitor Netlify build
+6. [x] Update runtime.txt to python-3.10.12 (Netlify supported version)
+7. [x] Add MISE_PYTHON_COMPILE=true to netlify.toml
