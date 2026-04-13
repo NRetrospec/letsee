@@ -1,5 +1,6 @@
 [build.environment]
-  MISE_PYTHON_COMPILE = "false"
+  NETLIFY_USE_YARN = "false"
+  NODE_VERSION = "20"
 
 [build]
   command = "pip install -r requirements.txt"
