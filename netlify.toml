@@ -1,1 +1,1 @@
-[build.environment]\nMISE_PYTHON_COMPILE = \"false\"\n\n[build]\n  command = \"pip install -r requirements.txt\"\n  publish = \".\"\n
+[build.environment]\n  MISE_PYTHON_COMPILE = \"false\"\n\n[build]\n  command = \"pip install -r requirements.txt\"\n  publish = \".\"\n
